@@ -1,6 +1,6 @@
 # URL Handler Shortcuts
 
-a nice pattern for when i'm working with a service or subject a lot is to create custom short links for it that i can open from my terminal.  for example, i've got `github:owner/repo#ISSUE-OR-PULL` (and the non-issue variant), or `rfc:RFC#SECTION` and the second number.
+a nice pattern for when i'm working with a service or subject a lot is to create custom short links for it that i can open from my terminal.  for example, i've got `github:owner/repo#ISSUE-OR-PULL` (and the non-issue variant), or `rfc:RFC#SECTION` (and the non-section variant).
 
 ## How this works
 
@@ -14,7 +14,7 @@ for instance, i'll leave comments like `// addresses bug XYZ, see also github:di
 
 See the [examples](examples) directory for some examples.
 
-i use [nushell](http://nushell.sh) to write the opener scripts, since it has built-in URL parsing libraries.
+i use [nushell](http://nushell.sh) to write the opener scripts, since it has built-in url parsing facilities.
 
 generally, this looks like
 
